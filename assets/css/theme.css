@@ -31,3 +31,13 @@
 .label .ic, .tone-navy .label .ic { color: #14181F; }
 .metrics-band::before { background: radial-gradient(800px 300px at 10% 0%, color-mix(in srgb, var(--brand-2) 35%, transparent), transparent 70%); }
 .tone-navy { background: linear-gradient(160deg, var(--navy), color-mix(in srgb, var(--navy) 80%, var(--brand-2))); }
+
+/* Photo layout: runway leads out from behind the portrait (desktop); headline wraps beside the photo */
+.hero.has-photo .hero-copy { min-width: 0; }
+.hero.has-photo .role, .hero.has-photo .role span { white-space: normal; max-width: 100%; }
+@media (min-width: 901px) {
+  .hero.has-photo { isolation: isolate; }
+  .hero-wrap:has(.hero.has-photo) .hero-bg { background: radial-gradient(600px 400px at 85% 20%, color-mix(in srgb, var(--brand-2) 14%, transparent), transparent 70%); }
+  .hero.has-photo .portrait { position: relative; }
+  .hero.has-photo .portrait::before { content: ""; position: absolute; z-index: -1; left: 50%; top: 52%; width: 230%; height: 120%; transform: translateX(-50%); background: url("../images/runway-lead.svg") center top / 100% 100% no-repeat; pointer-events: none; }
+}
