@@ -25,3 +25,9 @@
   --display: "Fraunces", Georgia, "Times New Roman", serif;
 {%- endif %}
 }
+
+/* Light aviation palette: sky-blue bands, taxiway-yellow signs (overrides style.css) */
+.label, .tone-navy .label { background: var(--accent); color: #14181F; border: 0; }
+.label .ic, .tone-navy .label .ic { color: #14181F; }
+.metrics-band::before { background: radial-gradient(800px 300px at 10% 0%, color-mix(in srgb, var(--brand-2) 35%, transparent), transparent 70%); }
+.tone-navy { background: linear-gradient(160deg, var(--navy), color-mix(in srgb, var(--navy) 80%, var(--brand-2))); }
