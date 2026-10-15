@@ -1,0 +1,48 @@
+# Site settings. You rarely need to touch this file.
+# Your page content is in _data/profile.yml. Blog posts are in _posts/.
+
+title: Ishan Dhar
+tagline: Senior Service Engineer, Air India
+description: "Ishan Dhar, Senior Service Engineer at Air India. 13+ years of A320 and 737 line maintenance, engineering stores, quality audits and ramp safety training."
+author: Ishan Dhar
+lang: en
+
+# After you publish, put your live address here, e.g. https://username.github.io or https://yourdomain.com
+url: "https://ishandhar.com"
+# Leave empty if your repository is named <username>.github.io
+baseurl: ""
+
+# Picture shown when someone shares your link on LinkedIn, WhatsApp or X.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/icons/icon-512.png
+
+social:
+  name: Ishan Dhar
+  links:
+    - https://www.linkedin.com/in/ishan-dhar-maesi/
+
+permalink: /blog/:year/:month/:title/
+# Posts dated in the future stay hidden until their date.
+# A daily GitHub job (.github/workflows/weekly-publish.yml) rebuilds the site so they appear on time.
+future: false
+timezone: Asia/Kolkata   # change to the person's time zone
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+feed:
+  path: blog/feed.xml
+
+exclude:
+  - README.md
+  - SETUP-PLAYBOOK.md
+  - .pagescms.yml
+
+# Visitor counts (free, no cookies, no consent banner needed): sign up at goatcounter.com,
+# then put your code here, e.g. goatcounter: "firstlast". Leave empty to switch off.
+goatcounter: ""
