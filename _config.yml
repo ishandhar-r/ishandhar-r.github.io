@@ -17,7 +17,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/icons/icon-512.png
+      image: /assets/images/ishan-headshot-2.jpg
 
 social:
   name: Ishan Dhar
