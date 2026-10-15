@@ -1,0 +1,15 @@
+{%- assign p = site.data.profile -%}
+{%- assign th = site.data.theme -%}
+<nav>
+  <div class="wrap">
+    <a class="mark" href="{{ '/' | relative_url }}" aria-label="{{ p.name_first }} {{ p.name_last }}, home"><img src="{{ '/assets/icons/emblem.svg' | relative_url }}?v=8" alt="" width="40" height="40"><span class="mark-name">{{ p.name_first }} <b>{{ p.name_last }}</b></span></a>
+    <ul>
+      {% unless th.show.about == false %}<li><a href="{{ '/#about' | relative_url }}">About</a></li>{% endunless %}
+      {% unless th.show.experience == false %}<li><a href="{{ '/#experience' | relative_url }}">Experience</a></li>{% endunless %}
+      {% unless th.show.training == false %}<li><a href="{{ '/#training' | relative_url }}">Training</a></li>{% endunless %}
+      {% unless th.show.certifications == false %}<li><a href="{{ '/#certifications' | relative_url }}">Certifications</a></li>{% endunless %}
+      {% unless th.show.writing == false %}<li><a href="{{ '/blog/' | relative_url }}">Writing</a></li>{% endunless %}
+      {% unless th.show.contact == false %}<li><a href="{{ '/#contact' | relative_url }}">Contact</a></li>{% endunless %}
+    </ul>
+  </div>
+</nav>
