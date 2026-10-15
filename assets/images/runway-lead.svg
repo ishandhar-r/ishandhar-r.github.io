@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="none">
+  <!-- Runway leading from the portrait toward the viewer. Decorative. -->
+  <path d="M188 0 L212 0 L400 300 L0 300 Z" fill="#1C5DA8" fill-opacity=".07"/>
+  <path d="M188 0 L0 300 M212 0 L400 300" stroke="#1C5DA8" stroke-opacity=".22" stroke-width="1.5" fill="none" vector-effect="non-scaling-stroke"/>
+  <g fill="#F2B705" fill-opacity=".9">
+    <path d="M198.6 18 L201.4 18 L201.8 34 L198.2 34 Z"/>
+    <path d="M198 56 L202 56 L202.6 80 L197.4 80 Z"/>
+    <path d="M197.2 106 L202.8 106 L203.8 140 L196.2 140 Z"/>
+    <path d="M196 172 L204 172 L205.4 218 L194.6 218 Z"/>
+    <path d="M194.4 252 L205.6 252 L207.4 300 L192.6 300 Z"/>
+  </g>
+</svg>
