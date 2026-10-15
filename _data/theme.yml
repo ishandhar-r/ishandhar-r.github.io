@@ -1,0 +1,50 @@
+# =====================================================================
+#  HOW YOUR WEBSITE LOOKS. Change a word, save, and the site updates.
+#  Same rules as profile.yml: keep the spaces, no tabs.
+# =====================================================================
+
+# 1. COLOUR STYLE: pick one word.
+#    navy     = deep navy with corporate blue and a warm amber highlight (current)
+#    teal     = deep teal with ocean blue-green
+#    graphite = charcoal with bright blue (most minimal)
+#    emerald  = dark green with emerald
+#    burgundy = deep wine with rose
+preset: navy
+
+# 2. FONT STYLE for big headings: pick one word.
+#    modern  = clean, strong sans-serif (current)
+#    classic = elegant serif, more traditional
+display_font: classic
+
+# 3. ANIMATION when someone opens the site. true or false.
+animate_hero: true
+
+# 4. SHOW OR HIDE SECTIONS. Set to false to hide one.
+show:
+  metrics: true
+  about: true
+  experience: true
+  training: true
+  certifications: true
+  education: true
+  writing: false
+  contact: true
+
+# 5. OPTIONAL: your own colours. Leave a line empty ("") to use the preset.
+#    Use hex colour codes, e.g. "#1D5FD1". Find codes at htmlcolorcodes.com
+colors:
+  navy: "#0F1B2D"      # dark sections, headings
+  brand: "#B8430E"     # buttons, links, highlights
+  brand_2: "#2A8C84"   # second highlight colour
+  accent: "#F2B705"    # small warm highlights (numbers, tags)
+  tint: "#F6F3EC"      # light background of alternate sections
+
+# ---------------------------------------------------------------------
+#  Preset definitions. You don't need to edit below this line.
+# ---------------------------------------------------------------------
+presets:
+  navy:     { navy: "#0B2545", brand: "#1D5FD1", brand_2: "#14A3B8", accent: "#F2A541", tint: "#F2F6FC" }
+  teal:     { navy: "#0A2E33", brand: "#0F7F86", brand_2: "#2FB3C4", accent: "#F2A541", tint: "#EFF7F7" }
+  graphite: { navy: "#181C24", brand: "#2F6FED", brand_2: "#6B7A90", accent: "#E4A11B", tint: "#F3F4F6" }
+  emerald:  { navy: "#0C2A20", brand: "#0F7F57", brand_2: "#2FB58A", accent: "#E7B53C", tint: "#F0F7F3" }
+  burgundy: { navy: "#2A0F1C", brand: "#9C1F46", brand_2: "#D4566F", accent: "#E2B04A", tint: "#FBF3F5" }

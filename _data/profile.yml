@@ -1,0 +1,207 @@
+# =====================================================================
+#  ALL WEBSITE TEXT LIVES HERE.
+#  Rules: keep the indentation (spaces, never tabs). Text with a colon
+#  or a # inside it must be wrapped in "double quotes".
+#
+#  Sources: Ishan's LinkedIn profile (linkedin.com/in/ishan-dhar-maesi),
+#  read 15 Oct 2026, and his resume (ISHAN_DHAR_RESUME_1.pdf).
+#  Every fact below comes from those two. No number was invented.
+#  Keep this file and LinkedIn saying the same thing.
+# =====================================================================
+
+name_first: Ishan
+name_last: Dhar
+location: Jammu, India
+status: Based in Jammu, India
+
+headline: Senior Service Engineer & Approved Ramp Safety Instructor
+headline_join: who
+headline_highlight: keeps A320 and 737 fleets safe, serviceable and on time.
+
+roles:
+  - Line Maintenance
+  - Stores & Quality
+  - Ramp Safety Training
+
+intro: "Thirteen years in airline line maintenance at GoAir / GO FIRST, SpiceJet and Air India, on the Airbus A320ceo/neo, Boeing 737 NG and MAX, and Bombardier Q400. Today I work on Air India's A320 and 737 MAX fleet in Jammu, run engineering stores as Designated Stores Officer, and train ground staff in headset communication, marshalling and ramp safety."
+
+labels:
+  cta: Get in touch
+  clients: Airlines I have worked with
+  experience_title: Thirteen years on the line
+  training: Training & Instruction
+  education: Education & Recognition
+  education_title: Engineer by trade, quality professional by training
+
+email: hello@ishandhar.com
+linkedin: https://www.linkedin.com/in/ishan-dhar-maesi/
+linkedin_label: linkedin.com/in/ishan-dhar-maesi
+github: ""
+
+resume_file: ""
+
+photo: ""
+
+expertise:
+  - Line maintenance
+  - AOG recovery
+  - Engineering stores
+  - Ground support equipment
+  - QC/QA audits
+  - AMOS & Ramco MRO
+  - Dangerous goods
+  - Lean Six Sigma
+
+# Only numbers that can be read straight off his LinkedIn and resume.
+metrics:
+  - tag: On the line
+    number: "13"
+    suffix: "+ yrs"
+    text: Airline line maintenance since February 2013
+  - tag: Airlines
+    number: "3"
+    suffix: ""
+    text: GoAir / GO FIRST, SpiceJet and Air India
+  - tag: Aircraft
+    number: "5"
+    suffix: " types"
+    text: A320ceo, A320neo, 737 NG, 737 MAX and Q400
+  - tag: Quality
+    number: "MBB"
+    suffix: ""
+    text: Lean Six Sigma Master Black Belt and AS9100D Internal Auditor
+
+about_title: "Hands-on on the ramp. Rigorous about quality."
+about:
+  - "Airlines need aircraft released safely and on time, every shift. That is the work I have done since 2013: inspections, troubleshooting, snag rectification and component changes, and the records, spares and audits that sit behind every release."
+  - "At Air India in Jammu I work on the Airbus A320ceo/neo and Boeing 737 MAX. I support AOG recoveries, supervise shifts and rosters, run engineering stores as Designated Stores Officer, plan ground support equipment, and prepare the station for regulatory audits. Since May 2026 I have also been an approved instructor for headset communication, marshalling and ramp safety."
+  - "I joined GoAir as a Junior Aircraft Maintenance Technician in 2013 and rose through every technician grade to Master Aircraft Maintenance Technician over eleven years, through the airline's change of name to GO FIRST. GoAir named me its Best Engineering Employee for a quarter. I then worked on SpiceJet's 737 and Q400 fleet before moving to Air India in 2024."
+  - "Alongside the job, I have kept studying: a B.Tech in Aeronautics, an M.Tech in Quality Assurance from BITS Pilani's Work Integrated Learning Programmes, Lean Six Sigma up to Master Black Belt, and TÜV SÜD's AS9100D Internal Auditor course."
+  - "I speak English, Hindi and Kashmiri, and some Punjabi. Outside work I read technical books, follow artificial intelligence, and have been a member of the Delhi Astronomy Club since 2020."
+
+clients:
+  - Air India
+  - SpiceJet
+  - GO FIRST (formerly GoAir)
+
+# Newest job first.
+experience:
+  - dates: May 2026 – Present
+    title: S.M.E 145 Approved Instructor
+    sector: "Aviation · Ground safety training"
+    icon: cap
+    company: Air India Limited
+    detail: India · Hybrid
+    current: true
+    points:
+      - "Approved instructor for headset communication between ground crew and the flight deck."
+      - "Trains staff in aircraft marshalling: standard signals and safe guidance on the apron."
+      - "Teaches ramp safety: hazards around aircraft and ground equipment during turnarounds."
+  - dates: Oct 2024 – Present
+    title: Senior Service Engineer
+    sector: "Aviation · Line maintenance"
+    icon: wrench
+    company: Air India Limited
+    detail: Jammu · A320ceo/neo, 737 MAX
+    current: true
+    points:
+      - "Keeps Airbus A320ceo/neo (CFM56-5B, LEAP-1A) and Boeing 737 MAX (LEAP-1B) aircraft serviceable through scheduled and unscheduled inspections, troubleshooting and component replacement."
+      - "Gets grounded aircraft flying again by supporting AOG recoveries, defect rectification, structural damage assessments and NDT."
+      - "Keeps spares and consumables available as Designated Stores Officer, managing inventory and component issue within regulatory requirements."
+      - "Keeps the station equipped by planning and procuring ground support equipment: trestles, tooling, ground power units, jet starter units, water and waste carts."
+      - "Keeps the station audit-ready: coordinates the regulator's external audits, runs internal QC/QA audits, and maintains maintenance and stores records in AMOS."
+  - dates: Apr 2024 – Oct 2024
+    title: Senior Technical Service Executive
+    sector: "Aviation · Line maintenance"
+    icon: gauge
+    company: SpiceJet Limited
+    detail: Jammu · 737 NG, 737 MAX, Q400
+    points:
+      - "Maintained Boeing 737-700/800 NG (CFM56-7B), 737 MAX (LEAP-1B) and Bombardier Q400 aircraft: checks, refuelling, inspections, troubleshooting, snag rectification and component replacement."
+      - "Reviewed work orders and operational documentation for completeness before sign-off."
+      - "Supported the regulator's external audits and internal QC/QA audits."
+      - "Managed stores, inventory and daily maintenance records in AMOS."
+  - dates: Feb 2013 – Apr 2024
+    title: Jr. A.M.T → A.M.T → Sr. A.M.T → Master A.M.T
+    sector: "Aviation · Line maintenance"
+    icon: plane
+    company: GoAir / GO FIRST
+    detail: Go Airlines (India) Ltd · A320ceo/neo
+    points:
+      - "Maintained Airbus A320ceo/neo aircraft (CFM56-5B, PW1100G): checks, refuelling, inspections, troubleshooting, snag rectification and component replacement."
+      - "Ran station stores in Ramco MRO: inventory, procurement, vendor creation, and equipment and asset management."
+      - "Kept digital maintenance, APU utilisation and base records in Ramco MRO, and reviewed work orders, inspection reports and maintenance summaries."
+      - "Supported the regulator's external audits and internal QC/QA audits."
+      - "Promoted through four technician grades: Junior (2013), AMT (2015), Senior (2018) and Master (2022)."
+
+training_title: Teaching the ramp to work safely
+training_intro: "Since May 2026 I have been an approved instructor at Air India, teaching the three skills that keep people and aircraft safe around a turnaround."
+training_note: "Safety on the apron is not a side topic. It is what every on-time departure rests on."
+training_facts:
+  - number: "3"
+    label: approved subjects
+  - number: "2026"
+    label: instructor since
+  - number: "13+ yrs"
+    label: on the ramp myself
+training_topics:
+  - name: Headset communication
+    note: Clear, standard calls between ground crew and the flight deck
+  - name: Marshalling
+    note: Standard signals for guiding aircraft safely on the apron
+  - name: Ramp safety
+    note: Hazards around aircraft and ground support equipment
+
+# year = first earned. status = Active or Expired.
+certifications_title: Five certifications since 2023
+certifications:
+  - group: Safety & quality
+    featured: true
+    items:
+      - name: Certified Dangerous Goods Professional (CDGP) · Air India
+        year: "2025"
+        status: Active
+      - name: AS9100D Internal Auditor · TÜV SÜD
+        year: "2023"
+  - group: Lean Six Sigma · Henry Harvin Education
+    items:
+      - name: Master Black Belt, Project Management
+        year: "2023"
+      - name: Black Belt, Project Management
+        year: "2023"
+      - name: Green Belt
+        year: "2023"
+
+  - group: Aircraft type & systems training
+    items:
+      - name: Airbus A320 family · CFM56-5B, PW1127, LEAP-1A engines
+      - name: Boeing 737 NG & MAX · CFM56-7B, LEAP-1B engines
+      - name: Bombardier Dash 8 Q400
+      - name: SAP Materials Management · Ramco MRO
+
+education:
+  - title: M.Tech, Quality Assurance
+    detail: BITS Pilani Work Integrated Learning Programmes · 2023 – 2025
+  - title: B.Tech, Aeronautics / Aerospace Science and Technology
+    detail: Singhania University · 2018 – 2022
+  - title: Mechanical Engineering
+    detail: Hindustan University · 2005 – 2008
+
+award_groups:
+  - group: Recognition
+    icon: award
+    items:
+      - title: Best Engineering Employee of the Quarter
+        detail: GoAir · Sep–Dec 2013 · Quarterly best employee award
+  - group: Professional memberships
+    icon: user
+    items:
+      - title: Aeronautical Society of India
+        detail: Lifetime member (MAeSI)
+      - title: International Association of Engineers
+        detail: Member (IAENG)
+
+contact_title: Need an engineer who puts safety
+contact_highlight: first?
+contact_intro: "Airlines, MROs and training teams: email me about maintenance, quality or ramp safety work."
+contact_note: "Based in Jammu, India. Speaks English, Hindi, Kashmiri and Punjabi."
