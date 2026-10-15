@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMaxYMax slice">
+  <!-- Runway in perspective: edges, threshold bars and dashed centreline. Decorative. -->
+  <path d="M470 0 L530 0 L800 600 L200 600 Z" fill="#0F1B2D" fill-opacity=".06"/>
+  <path d="M470 0 L200 600 M530 0 L800 600" stroke="#0F1B2D" stroke-opacity=".18" stroke-width="2" fill="none"/>
+  <g fill="#F2B705" fill-opacity=".85">
+    <path d="M497 20 L503 20 L503.6 44 L496.4 44 Z"/>
+    <path d="M496 72 L504 72 L505 110 L495 110 Z"/>
+    <path d="M494.5 150 L505.5 150 L507 205 L493 205 Z"/>
+    <path d="M492.5 255 L507.5 255 L509.5 330 L490.5 330 Z"/>
+    <path d="M490 395 L510 395 L513 495 L487 495 Z"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#0F1B2D" stroke-opacity=".2" stroke-width="1">
+    <path d="M250 545 L272 545 L262 600 L236 600 Z"/><path d="M295 545 L317 545 L311 600 L285 600 Z"/>
+    <path d="M340 545 L362 545 L360 600 L334 600 Z"/><path d="M385 545 L407 545 L409 600 L383 600 Z"/>
+    <path d="M593 545 L615 545 L617 600 L591 600 Z"/><path d="M638 545 L660 545 L666 600 L640 600 Z"/>
+    <path d="M683 545 L705 545 L715 600 L689 600 Z"/><path d="M728 545 L750 545 L764 600 L738 600 Z"/>
+  </g>
+</svg>
