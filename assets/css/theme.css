@@ -39,5 +39,8 @@
   .hero.has-photo { isolation: isolate; }
   .hero-wrap:has(.hero.has-photo) .hero-bg { background: radial-gradient(600px 400px at 85% 20%, color-mix(in srgb, var(--brand-2) 14%, transparent), transparent 70%); }
   .hero.has-photo .portrait { position: relative; }
-  .hero.has-photo .portrait::before { content: ""; position: absolute; z-index: -1; left: 50%; top: 52%; width: 230%; height: 120%; transform: translateX(-50%); background: url("../images/runway-lead.svg") center top / 100% 100% no-repeat; pointer-events: none; }
+  .hero.has-photo { grid-template-columns: minmax(0, 1fr) clamp(220px, 19vw, 270px); }
+  .hero.has-photo .portrait::before { content: ""; position: absolute; z-index: -1; left: 50%; top: 60%; width: 260%; height: 160%; transform: translateX(-50%); background: url("../images/runway-lead.svg") center top / 100% 100% no-repeat; pointer-events: none; }
 }
+
+@media (max-width: 900px) { .hero .portrait { max-width: 230px; } }
