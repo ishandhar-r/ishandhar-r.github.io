@@ -1,12 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="none">
-  <!-- Runway leading from the portrait toward the viewer. Decorative. -->
+  <!-- Runway leading from the portrait toward the viewer, with threshold stripes. Decorative. -->
   <path d="M188 0 L212 0 L400 300 L0 300 Z" fill="#1C5DA8" fill-opacity=".13"/>
   <path d="M188 0 L0 300 M212 0 L400 300" stroke="#1C5DA8" stroke-opacity=".4" stroke-width="2" fill="none" vector-effect="non-scaling-stroke"/>
   <g fill="#F2B705" fill-opacity=".9">
-    <path d="M198.6 18 L201.4 18 L201.8 34 L198.2 34 Z"/>
-    <path d="M198 56 L202 56 L202.6 80 L197.4 80 Z"/>
-    <path d="M197.2 106 L202.8 106 L203.8 140 L196.2 140 Z"/>
-    <path d="M196 172 L204 172 L205.4 218 L194.6 218 Z"/>
-    <path d="M194.4 252 L205.6 252 L207.4 300 L192.6 300 Z"/>
+    <path d="M198.8 30 L201.2 30 L201.6 48 L198.4 48 Z"/>
+    <path d="M198.2 70 L201.8 70 L202.4 96 L197.6 96 Z"/>
+    <path d="M197.4 120 L202.6 120 L203.4 154 L196.6 154 Z"/>
+    <path d="M196.4 182 L203.6 182 L204.6 224 L195.4 224 Z"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#1C5DA8" stroke-opacity=".25" stroke-width="1" vector-effect="non-scaling-stroke">
+    <path d="M44 256 L62 256 L54 296 L33 296 Z"/><path d="M78 256 L96 256 L91 296 L70 296 Z"/>
+    <path d="M112 256 L130 256 L128 296 L107 296 Z"/><path d="M146 256 L164 256 L165 296 L144 296 Z"/>
+    <path d="M236 256 L254 256 L256 296 L235 296 Z"/><path d="M270 256 L288 256 L293 296 L272 296 Z"/>
+    <path d="M304 256 L322 256 L330 296 L309 296 Z"/><path d="M338 256 L356 256 L367 296 L346 296 Z"/>
   </g>
 </svg>
