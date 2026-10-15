@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- ID monogram on a runway: navy tile, taxiway-yellow centreline. -->
+  <rect width="64" height="64" rx="14" fill="#0F1B2D"/>
+  <rect x="30.5" y="49" width="3" height="7" rx="1" fill="#F2B705"/>
+  <rect x="30.5" y="8" width="3" height="5" rx="1" fill="#F2B705"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="26" fill="#FFFFFF">ID</text>
+</svg>
