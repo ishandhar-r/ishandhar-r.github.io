@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- Security: only files from this site may load. If goatcounter is set in _config.yml, GoatCounter (cookie-free visitor counts) is the single exception. -->
+  {% assign gc = site.goatcounter | strip %}{% if gc != "" %}{% assign gc_host = "https://" | append: gc | append: ".goatcounter.com" %}{% endif %}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'{% if gc != "" %} https://gc.zgo.at{% endif %}; style-src 'self'; font-src 'self'; img-src 'self' data:{% if gc != "" %} {{ gc_host }}{% endif %}; connect-src 'self'{% if gc != "" %} {{ gc_host }}{% endif %}; media-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light">
+  {% seo %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}?v=9" sizes="any">
+  <link rel="icon" href="{{ '/assets/icons/favicon.svg' | relative_url }}?v=9" type="image/svg+xml">
+  <link rel="icon" href="{{ '/assets/icons/icon-32.png' | relative_url }}?v=9" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{ '/assets/icons/apple-touch-icon.png' | relative_url }}?v=9">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  <meta name="theme-color" content="#0F1B2D">
+  <link rel="preload" href="{{ '/assets/fonts/fraunces-latin-900-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% feed_meta %}
+</head>
+<body{% if site.data.theme.animate_hero == false %} class="no-motion"{% endif %}>
+  {% include icons.html %}
+  {% include nav.html %}
+  <main id="top">
+    {{ content }}
+  </main>
+  <footer>
+    <div class="wrap">
+      <span>© {{ 'now' | date: '%Y' }} {{ site.data.profile.name_first }} {{ site.data.profile.name_last }}</span>
+      <span><a href="{{ '/blog/feed.xml' | relative_url }}">RSS</a> · {{ site.data.profile.status }}</span>
+    </div>
+  </footer>
+  <dialog class="lightbox" id="lightbox" aria-label="Certificate"><button type="button" class="lb-close" aria-label="Close">×</button><img alt=""><p class="lb-cap"></p></dialog>
+  <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  {% if gc != "" %}<script data-goatcounter="{{ gc_host }}/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
+</body>
+</html>
