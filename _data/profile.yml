@@ -23,7 +23,7 @@ roles:
   - Stores & Quality
   - Ramp Safety Training
 
-intro: "Thirteen years in airline line maintenance at GoAir / GO FIRST, SpiceJet and Air India, on the Airbus A320ceo/neo, Boeing 737 NG and MAX, and Bombardier Q400. Today I work on Air India's A320 and 737 MAX fleet in Jammu, run engineering stores as Designated Stores Officer, and train ground staff in headset communication, marshalling and ramp safety."
+intro: "Thirteen years in airline line maintenance at GoAir/GO FIRST, SpiceJet and Air India, on the Airbus A320ceo/neo, Boeing 737 NG and MAX, and Bombardier Q400. Today, I work on Air India’s A320 and 737 MAX fleet in Jammu, run engineering stores as Designated Stores Officer, and train ground staff in headset communication, marshalling and ramp safety."
 
 labels:
   cta: Get in touch
@@ -73,11 +73,11 @@ metrics:
 
 about_title: "Hands-on on the ramp. Rigorous about quality."
 about:
-  - "Airlines need aircraft released safely and on time, every shift. That is the work I have done since 2013: inspections, troubleshooting, snag rectification and component changes, and the records, spares and audits that sit behind every release."
-  - "At Air India in Jammu I work on the Airbus A320ceo/neo and Boeing 737 MAX. I support AOG recoveries, supervise shifts and rosters, run engineering stores as Designated Stores Officer, plan ground support equipment, and prepare the station for regulatory audits. Since May 2026 I have also been an approved instructor for headset communication, marshalling and ramp safety."
-  - "I joined GoAir as a Junior Aircraft Maintenance Technician in 2013 and rose through every technician grade to Master Aircraft Maintenance Technician over eleven years, through the airline's change of name to GO FIRST. GoAir named me its Best Engineering Employee for a quarter. I then worked on SpiceJet's 737 and Q400 fleet before moving to Air India in 2024."
-  - "Alongside the job, I have kept studying: a B.Tech in Aeronautics, an M.Tech in Quality Assurance from BITS Pilani's Work Integrated Learning Programmes, Lean Six Sigma up to Master Black Belt, and TÜV SÜD's AS9100D Internal Auditor course."
-  - "I speak English, Hindi and Kashmiri, and some Punjabi. Outside work I read technical books, follow artificial intelligence, and have been a member of the Delhi Astronomy Club since 2020."
+  - "Every departure depends on the work done on the ground. Before an aircraft carries a single passenger, it must be inspected, its defects rectified and its records complete; one missed detail on the line can compromise safety and ground an aircraft. Since 2013, that has been my work: scheduled and unscheduled inspections, troubleshooting, snag rectification and component changes, backed by the spares, documentation and audits that make every release safe and on time."
+  - "At Air India in Jammu, I work on the Airbus A320ceo/neo and the Boeing 737 MAX. I support AOG (aircraft on ground) recoveries, supervise shifts and rosters, run engineering stores as the Designated Stores Officer, plan ground support equipment, and prepare the station for regulatory audits. Since May 2026, I have also been an approved instructor for headset communication, marshalling and ramp safety."
+  - "In 2013, I joined GoAir as a Junior Aircraft Maintenance Technician. Over the next eleven years, I rose through every technician grade to Master Aircraft Maintenance Technician, staying on through the airline’s change of name to GO FIRST. GoAir named me its Best Engineering Employee of the Quarter (Sep–Dec 2013). I then worked on SpiceJet’s Boeing 737 and Bombardier Q400 fleet, before moving to Air India in 2024."
+  - "Alongside the job, I have kept studying: a B.Tech in Aeronautics; an M.Tech in Quality Assurance from BITS Pilani’s Work Integrated Learning Programmes; Lean Six Sigma up to Master Black Belt; and TÜV SÜD’s AS9100D Internal Auditor course."
+  - "I speak English, Hindi and Kashmiri, as well as some Punjabi. Outside work, I read technical books, follow developments in artificial intelligence, and have been a member of the Delhi Astronomy Club since 2020."
 
 clients:
   - Air India
@@ -109,7 +109,7 @@ experience:
       - "Gets grounded aircraft flying again by supporting AOG recoveries, defect rectification, structural damage assessments and NDT."
       - "Keeps spares and consumables available as Designated Stores Officer, managing inventory and component issue within regulatory requirements."
       - "Keeps the station equipped by planning and procuring ground support equipment: trestles, tooling, ground power units, jet starter units, water and waste carts."
-      - "Keeps the station audit-ready: coordinates the regulator's external audits, runs internal QC/QA audits, and maintains maintenance and stores records in AMOS."
+      - "Keeps the station audit-ready: coordinates the regulator’s external audits, runs internal QC/QA audits, and maintains maintenance and stores records in AMOS."
   - dates: Apr 2024 – Oct 2024
     title: Senior Technical Service Executive
     sector: "Aviation · Line maintenance"
@@ -119,7 +119,7 @@ experience:
     points:
       - "Maintained Boeing 737-700/800 NG (CFM56-7B), 737 MAX (LEAP-1B) and Bombardier Q400 aircraft: checks, refuelling, inspections, troubleshooting, snag rectification and component replacement."
       - "Reviewed work orders and operational documentation for completeness before sign-off."
-      - "Supported the regulator's external audits and internal QC/QA audits."
+      - "Supported the regulator’s external audits and internal QC/QA audits."
       - "Managed stores, inventory and daily maintenance records in AMOS."
   - dates: Feb 2013 – Apr 2024
     title: Jr. A.M.T → A.M.T → Sr. A.M.T → Master A.M.T
@@ -131,11 +131,11 @@ experience:
       - "Maintained Airbus A320ceo/neo aircraft (CFM56-5B, PW1100G): checks, refuelling, inspections, troubleshooting, snag rectification and component replacement."
       - "Ran station stores in Ramco MRO: inventory, procurement, vendor creation, and equipment and asset management."
       - "Kept digital maintenance, APU utilisation and base records in Ramco MRO, and reviewed work orders, inspection reports and maintenance summaries."
-      - "Supported the regulator's external audits and internal QC/QA audits."
+      - "Supported the regulator’s external audits and internal QC/QA audits."
       - "Promoted through four technician grades: Junior (2013), AMT (2015), Senior (2018) and Master (2022)."
 
 training_title: Teaching the ramp to work safely
-training_intro: "Since May 2026 I have been an approved instructor at Air India, teaching the three skills that keep people and aircraft safe around a turnaround."
+training_intro: "Since May 2026, I have been an approved instructor at Air India, teaching the three skills that keep people and aircraft safe around a turnaround."
 training_note: "Safety on the apron is not a side topic. It is what every on-time departure rests on."
 training_facts:
   - number: "3"
