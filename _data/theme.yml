@@ -33,11 +33,11 @@ show:
 # 5. OPTIONAL: your own colours. Leave a line empty ("") to use the preset.
 #    Use hex colour codes, e.g. "#1D5FD1". Find codes at htmlcolorcodes.com
 colors:
-  navy: "#0F1B2D"      # dark sections, headings
-  brand: "#B8430E"     # buttons, links, highlights
-  brand_2: "#2A8C84"   # second highlight colour
+  navy: "#1C5DA8"      # dark sections, headings
+  brand: "#B45309"     # buttons, links, highlights
+  brand_2: "#0EA5E9"   # second highlight colour
   accent: "#F2B705"    # small warm highlights (numbers, tags)
-  tint: "#F6F3EC"      # light background of alternate sections
+  tint: "#F3F8FD"      # light background of alternate sections
 
 # ---------------------------------------------------------------------
 #  Preset definitions. You don't need to edit below this line.
