@@ -23,7 +23,7 @@ roles:
   - Stores & Quality
   - Ramp Safety Training
 
-intro: "Thirteen years in airline line maintenance at GoAir/GO FIRST, SpiceJet and Air India, on the Airbus A320ceo/neo, Boeing 737 NG and MAX, and Bombardier Q400. Today, I work on Air India’s A320 and 737 MAX fleet in Jammu, run engineering stores as Designated Stores Officer, and train ground staff in headset communication, marshalling and ramp safety."
+intro: "Thirteen years in airline line maintenance at Air India, SpiceJet and GoAir/GO FIRST, on the Airbus A320ceo/neo, Boeing 737 MAX and NG, and Bombardier Q400. Today, I work on Air India’s A320 and 737 MAX fleet in Jammu, run engineering stores as Designated Stores Officer, and train ground staff in headset communication, marshalling and ramp safety."
 
 labels:
   cta: Get in touch
@@ -61,11 +61,11 @@ metrics:
   - tag: Airlines
     number: "3"
     suffix: ""
-    text: GoAir / GO FIRST, SpiceJet and Air India
+    text: Air India, SpiceJet and GoAir/GO FIRST
   - tag: Aircraft
     number: "5"
     suffix: " types"
-    text: A320ceo, A320neo, 737 NG, 737 MAX and Q400
+    text: A320ceo, A320neo, 737 MAX, 737 NG and Q400
   - tag: Quality
     number: "MBB"
     suffix: ""
@@ -175,7 +175,7 @@ certifications:
   - group: Aircraft type & systems training
     items:
       - name: Airbus A320 family · CFM56-5B, PW1127, LEAP-1A engines
-      - name: Boeing 737 NG & MAX · CFM56-7B, LEAP-1B engines
+      - name: Boeing 737 MAX & NG · LEAP-1B, CFM56-7B engines
       - name: Bombardier Dash 8 Q400
       - name: SAP Materials Management · Ramco MRO
 
